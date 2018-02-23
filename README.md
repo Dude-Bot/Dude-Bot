@@ -1,6 +1,6 @@
 # Dude-Bot
 
-This is a closed source BOT for gitter.im - there will be a slimmed down version of the bot with most of the core functionality available [here](https://github.com/Dude-WTF/simple-gitter.im-bot).
+This is a closed source BOT for gitter.im and is still in BETA phase; some portion in DEVELOPMENT. There will be a slimmed down version of the bot with most of the core functionality available [here](https://github.com/Dude-WTF/simple-gitter.im-bot).
 
 To have this bot available in your gitter.im chat simply share your room with Dude-Bot and he'll activate in roughly 1 minute after being added. This also working in private 1 on 1 chats with the bot.
 
@@ -18,7 +18,7 @@ Will be adding in hooks to FaceBook messenger and slack in near future.
 
 ---
 
-## Cryptocurrency Specific - In Developement
+## Cryptocurrency Specific - In Development
 * !tradeBot (from coin amount) (from coin) (to coin)
 * !tradeBot (with who @name) (from coin amount) (from coin) (to coin amount) (to coin)
 * !tradeBot status
@@ -31,7 +31,7 @@ Will be adding in hooks to FaceBook messenger and slack in near future.
 
 ---
 
-### Bot Client Specific (Rig/Wallet Interface) - In Developement
+### Bot Client Specific (Rig/Wallet Interface) - In Development
 * !rigStatus [rigAlias]
 * !rigSwapPool (Pool Alias) [Coin]
 * !rigNotify (true/false)
@@ -56,11 +56,20 @@ znomp: {
 * !luckpool [coin symbol]
 * !luckpool minerstats (walletAddress)
   * Operation Aliases: workerstats, minterstats
+* !luckpool mystats *use the following operations to configure 'mystats'*
+* !luckpool addWallet (address) *Can add multiple at once, use commas to seperate them!*
+* !luckpool listWallets 
+* !luckpool removeWallet (address) *Can remove multiple at once, use commas to seperate them!*
+Custom Operations - specific to luckpool
 * !luckpool fixWebsite
 * !luckpool wiki (page) (bookmark/anchor)
+
 
 ### Fastblocks
 * !fastblocks [coin symbol]
 * !fastblocks minerstats (walletAddress)
   * Operation Alises: workerstats, minterstats
-
+* !fastblocks mystats *use the following operations to configure 'mystats'*
+* !fastblocks addWallet (address) *Can add multiple at once, use commas to seperate them!*
+* !fastblocks listWallets 
+* !fastblocks removeWallet (address) *Can remove multiple at once, use commas to seperate them!*
