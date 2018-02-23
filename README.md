@@ -17,23 +17,27 @@ Will be adding in hooks to FaceBook messenger and slack in near future.
 * !ask (some ?)
 * !imageSearch (search phrase)
 
+*working on AI/Machine Learning integration as well*
+
 ---
 
-## Cryptocurrency Specific - In Development
+## Cryptocurrency Specific
 
 * $ *Price lookup*
   * $(coin name/symbol) [convert to fiat]
   * $bitcoin USD
   * $btc GBP
+  
+**In Development**
 
-* !tradeBot
+* **tradeBot**
   * !tradeBot (from coin amount) (from coin) (to coin)
   * !tradeBot (with who @name) (from coin amount) (from coin) (to coin amount) (to coin)
   * !tradeBot status
   * !tradeBot cancel (orderId)
     * Method Aliases: swap, trade, exchange
 
-* !market
+* **market**
   * !market (from coin amount) (from coin) (to coin amount) (to coin)
   * !market status 
   * !market cancel (orderId)
@@ -42,6 +46,8 @@ Will be adding in hooks to FaceBook messenger and slack in near future.
 ---
 
 ### Bot Client Specific (Rig/Wallet Interface) - In Development
+*Must have client installed and configured, only available in Private Chat with bot.*
+
 * !rigStatus [rigAlias]
 * !rigSwapPool (Pool Alias) [Coin]
 * !rigNotify (true/false)
@@ -82,10 +88,10 @@ Custom Operations - specific to luckpool
 ### Generic Z-NOMP - 0 Config
 * !znomp get (domain:port) minerstats (walletAddress)
 
----
 
-Donations are Accepted :smile:
----
+
+
+# Donations are Accepted :smile:
 
 **Komodo**: RWx5tdLyrDe5gNDwynwLN6im4HoEY**DUdE**7
 
