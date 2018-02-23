@@ -60,6 +60,7 @@ znomp: {
 * !luckpool addWallet (address) *Can add multiple at once, use commas to seperate them!*
 * !luckpool listWallets 
 * !luckpool removeWallet (address) *Can remove multiple at once, use commas to seperate them!*
+
 Custom Operations - specific to luckpool
 * !luckpool fixWebsite
 * !luckpool wiki (page) (bookmark/anchor)
