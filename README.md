@@ -1,8 +1,8 @@
 # Dude-Bot
 
-This is a closed source BOT for gitter.im and is still in BETA phase; some portion in DEVELOPMENT. There will be a slimmed down version of the bot with most of the core functionality available [here](https://github.com/Dude-WTF/simple-gitter.im-bot).
+This is a closed source BOT for gitter.im and is still in BETA phase; some portions in DEVELOPMENT. There will be a slimmed down version of the bot with most of the core functionality available [here](https://github.com/Dude-WTF/simple-gitter.im-bot).
 
-To have this bot available in your gitter.im chat simply share your room with Dude-Bot and he'll activate in roughly 1 minute after being added. This also working in private 1 on 1 chats with the bot.
+To have this bot available in your gitter.im chat simply share your room with Dude-Bot and he'll activate in roughly 1 minute after being added. This also works in private 1 on 1 chats with the bot.
 
 ---
 
@@ -13,6 +13,7 @@ Will be adding in hooks to FaceBook messenger and slack in near future.
 ## Designated commands/operations
 
 * !mimic (@who)
+  * !clearmimic
 * !ask (some ?)
 * !imageSearch (search phrase)
 
