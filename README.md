@@ -20,6 +20,12 @@ Will be adding in hooks to FaceBook messenger and slack in near future.
 ---
 
 ## Cryptocurrency Specific - In Development
+
+* $ *Price lookup*
+  * $(coin name/symbol) [convert to fiat]
+  * $bitcoin USD
+  * $btc GBP
+
 * !tradeBot
   * !tradeBot (from coin amount) (from coin) (to coin)
   * !tradeBot (with who @name) (from coin amount) (from coin) (to coin amount) (to coin)
@@ -32,10 +38,6 @@ Will be adding in hooks to FaceBook messenger and slack in near future.
   * !market status 
   * !market cancel (orderId)
 
-* $ *Price lookup*
-  * $(coin name/symbol) [conver to fiat]
-  * $bitcoin USD
-  * $btc GBP
 
 ---
 
@@ -51,14 +53,7 @@ Will be adding in hooks to FaceBook messenger and slack in near future.
 
 ## z-nomp mining pools
 
-Easy to add other z-nomp pools, in the method configuration add the following options for your custom command. If you would like to have your pool added but don't want to configue, open a issue and provide the pool details.
-
-```
-znomp: {
-  znompDomain: "www.yourPoolURL.com",
-  znomp: port#
-}
-```
+Easy to add other z-nomp pools - Just open a issue and provide the pool details and it will be added.
 
 ### LuckPool
 * !luckpool [coin symbol]
@@ -71,8 +66,9 @@ znomp: {
 
 Custom Operations - specific to luckpool
 * !luckpool fixWebsite
-* !luckpool wiki (page) (bookmark/anchor)
-
+* !luckpool wiki (page) (bookmark/anchor) 
+* !luckpool status *custom monitoring for site and stratum servers*
+* !luckpool status (coin)
 
 ### Fastblocks
 * !fastblocks [coin symbol]
@@ -82,3 +78,25 @@ Custom Operations - specific to luckpool
 * !fastblocks addWallet (address) *Can add multiple at once, use commas to seperate them!*
 * !fastblocks listWallets 
 * !fastblocks removeWallet (address) *Can remove multiple at once, use commas to seperate them!*
+
+### Generic Z-NOMP - 0 Config
+* !znomp get (domain:port) minerstats (walletAddress)
+
+---
+
+Donations are Accepted :smile:
+---
+
+Komodo: RWx5tdLyrDe5gNDwynwLN6im4HoEY**DUdE**7
+
+BTC: 1EWVaH8jQccdQtpFx3y5L4rXRLAuubCk58
+
+LTC: LPvqRzkYh5T6qnq1HU4ZfwXxoWmJ8dbs2w
+
+zCash: t1N4HUoWy42KM4m7a6p9mHiDTerWSfeWCNx
+
+ZEN: znaWz3CnN2Y1Vzx5YG8Amx1gQ5GR84pfwDn
+
+ETH: 0xc9620D885c0966f9A6514a1c3c3CAA490bB0c018
+
+BCH: qqn5ykk3g69hzmm6ulr94g0xw3jrfq4ffq9fnn074t
