@@ -87,7 +87,7 @@ Custom Operations - specific to luckpool
 Donations are Accepted :smile:
 ---
 
-Komodo: RWx5tdLyrDe5gNDwynwLN6im4HoEY**DUdE**7
+**Komodo**: RWx5tdLyrDe5gNDwynwLN6im4HoEY**DUdE**7
 
 BTC: 1EWVaH8jQccdQtpFx3y5L4rXRLAuubCk58
 
