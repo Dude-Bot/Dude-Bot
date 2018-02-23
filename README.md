@@ -19,15 +19,22 @@ Will be adding in hooks to FaceBook messenger and slack in near future.
 ---
 
 ## Cryptocurrency Specific - In Development
-* !tradeBot (from coin amount) (from coin) (to coin)
-* !tradeBot (with who @name) (from coin amount) (from coin) (to coin amount) (to coin)
-* !tradeBot status
-* !tradeBot cancel (orderId)
-  * Method Aliases: swap, trade, exchange
+* !tradeBot
+  * !tradeBot (from coin amount) (from coin) (to coin)
+  * !tradeBot (with who @name) (from coin amount) (from coin) (to coin amount) (to coin)
+  * !tradeBot status
+  * !tradeBot cancel (orderId)
+    * Method Aliases: swap, trade, exchange
 
-* !market (from coin amount) (from coin) (to coin amount) (to coin)
-* !market status 
-* !market cancel (orderId)
+* !market
+  * !market (from coin amount) (from coin) (to coin amount) (to coin)
+  * !market status 
+  * !market cancel (orderId)
+
+* $ *Price lookup*
+  * $(coin name/symbol) [conver to fiat]
+  * $bitcoin USD
+  * $btc GBP
 
 ---
 
