@@ -13,9 +13,12 @@ Will be adding in hooks to FaceBook messenger and slack in near future.
 ## Designated commands/operations
 
 * !mimic (@who)
-  * !clearmimic
+  * !mimic clear
 * !ask (some ?)
 * !imageSearch (search phrase)
+* !chuck
+* !magic8ball (some ?)
+  * Operation Alias: crystalball
 
 *working on AI/Machine Learning integration as well*
 
@@ -24,8 +27,8 @@ Will be adding in hooks to FaceBook messenger and slack in near future.
 ## Cryptocurrency Specific
 
 * $ *Price lookup*
-  * $(coin name/symbol) [convert to fiat]
-  * $bitcoin USD
+  * $(coin name/symbol) [convert to fiat (default: USD)]
+  * $bitcoin EUR
   * $btc GBP
   
 **In Development**
@@ -42,6 +45,8 @@ Will be adding in hooks to FaceBook messenger and slack in near future.
   * !market status 
   * !market cancel (orderId)
 
+* **network stats**
+  * !netstats (coin)
 
 ---
 
