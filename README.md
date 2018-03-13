@@ -48,17 +48,25 @@ Will be adding in hooks to FaceBook messenger and slack in near future.
 * **network stats**
   * !netstats (coin)
 
+* **lite wallet**
+  * !wallet (method) (coin) [actions]
+  * !wallet getbalance (coin)
+  * !wallet send (coin) (to address) (amount)
+  
 ---
 
 ### Bot Client Specific (Rig/Wallet Interface) - In Development
 *Must have client installed and configured, only available in Private Chat with bot.*
 
-* !rigStatus [rigAlias]
-* !rigSwapPool (Pool Alias) [Coin]
-* !rigNotify (true/false)
-* !wallet (method) (coin) [actions]
-* !wallet getbalance (coin)
-* !wallet send (coin) (to address) (amount)
+* **Rig Interface**
+  * !rig status [rigAlias]
+  * !rig swapPool (Pool Alias) [Coin]
+  * !rig notify (true/false)
+
+* **Wallet Interface**
+  * !myWallet (method) (coin) [actions]
+  * !myWallet getbalance (coin)
+  * !myWallet send (coin) (to address) (amount)
 
 ---
 
